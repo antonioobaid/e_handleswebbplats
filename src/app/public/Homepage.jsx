@@ -19,7 +19,6 @@ function Homepage() {
        getProducts();
       }, []);
 
-  
     return (
         <main className="main-homepage">
         <section className="main-section">

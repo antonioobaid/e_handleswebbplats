@@ -4,7 +4,6 @@ import { FaPlus } from "react-icons/fa";
 import { useCart } from "../context/CardContext";
 
 
-
 function CartItems({ item }) {
 
   const { removeFromCart ,updateQuantity } = useCart()

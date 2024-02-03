@@ -3,14 +3,12 @@ import { Shoppingcard } from "./Shoppingcard";
 import { useCart } from "../context/CardContext";
 
 
-
 function Dropdown({ children }) {
 
   const { cartItems } = useCart()
   
   const [isOpen, setIsOpen] = useState(false);
     
-
   return (
     <>
         {isOpen && <div className="drop-toggle" onClick={() => setIsOpen(false)}/>  }
